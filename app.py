@@ -24,16 +24,27 @@ with st.sidebar:
                           default_index=0)
 
 st.sidebar.caption(
-    '**This is a machine learning web application built using Streamlit that predicts whether or `not` a patient has `diabetes, heart disease or parkinsons` considering multiple health parameters.**')
+    '**This is a machine learning web application built using Streamlit that predicts whether or `not` a patient has `Diabetes, Heart Disease or Parkinsons` considering multiple health parameters.**')
+
+st.sidebar.markdown('---') 
+
+st.sidebar.title('ML Model Details :')
+
+st.sidebar.caption(
+    '**Algorithm used (Diabetes):** **`SVC - Support Vector Classifier`**')
+st.sidebar.caption(
+    '**Algorithm used (Heart):** **`Logistic Regression`**')
+st.sidebar.caption(
+    '**Algorithm used (Parkinsons):** **`SVC - Support Vector Classifier`**')
     
 # Diabetes Prediction Page
 if (selected == 'Diabetes Prediction'):
     
     # page title
-    # st.title('Diabetes Prediction')
     st.markdown("<h1 style='text-align: center; color: violet;'> Diabetes Prediction 🧑‍⚕️</h1>", unsafe_allow_html=True)
 
     st.write('The Diabetes Prediction App is a tool that predicts the probability of a patient having diabetes based on diagnostic measurements. This tool is intended for females above the age of 21 years, of Pima Indian Heritage, and uses a dataset from the National Institute of Diabetes and Digestive and Kidney Diseases.')
+
 
     with st.expander('Click on the dropdown to see - How it works?'):
         st.subheader('Steps to Predict:')
