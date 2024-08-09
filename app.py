@@ -5,11 +5,11 @@ from streamlit_option_menu import option_menu
 
 # loading the saved models
 
-diabetes_model = pickle.load(open('/Users/Nitro/Desktop/MediCare/model/diabetes_model.pkl', 'rb'))
+diabetes_model = pickle.load(open('model/diabetes_model.pkl', 'rb'))
 
-heart_disease_model = pickle.load(open('/Users/Nitro/Desktop/MediCare/model/heart_disease_model.pkl','rb'))
+heart_disease_model = pickle.load(open('model/heart_disease_model.pkl','rb'))
 
-parkinsons_model = pickle.load(open('/Users/Nitro/Desktop/MediCare/model/parkinsons_model.pkl', 'rb'))
+parkinsons_model = pickle.load(open('model/parkinsons_model.pkl', 'rb'))
 
 
 # sidebar for navigation2
