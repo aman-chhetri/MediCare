@@ -34,19 +34,14 @@ A machine learning web application built using Streamlit that predicts whether o
 - [Contact](#📩-contact)
 
 
-<!-- ## 📶 Dataset
+## 📶 Dataset
 
-The trained dataset is originally from the `National Institute of Diabetes and Digestive and Kidney Diseases`. The objective is to predict based on diagnostic measurements whether a patient has diabetes. Several constraints were placed on the selection of these instances from a larger database. In particular, all patients here are `females` at least `21 years` old of `Pima Indian heritage`. The dataset can be found on [`Kaggle`](https://www.kaggle.com/datasets/uciml/pima-indians-diabetes-database). It includes following health criteria:
+The Dataset used for Diabetes Prediction can be found [`here`](https://github.com/aman-chhetri/MediCare/blob/main/datasets/diabetes.csv). 
 
-- Pregnancies: Number of times pregnant
-- Glucose: Plasma glucose concentration a 2 hours in an oral glucose tolerance test
-- BloodPressure: Diastolic blood pressure (mm Hg)
-- SkinThickness: Triceps skin fold thickness (mm)
-- Insulin: 2-Hour serum insulin (mu U/ml)
-- BMI: Body mass index (weight in kg/(height in m)^2)
-- DiabetesPedigreeFunction: Diabetes pedigree function
-- Age: Age (years)
-- Outcome: Class variable (0 or 1) -->
+The Dataset used for for Heart Diseases Prediction can be found here [`here`](https://github.com/aman-chhetri/MediCare/blob/main/datasets/heart.csv). 
+
+The Dataset used for Parkinsons Diseases can be found here [`here`](https://github.com/aman-chhetri/MediCare/blob/main/datasets/parkinsons.csv). 
+
 
 
 ## 🧰 Dependencies
