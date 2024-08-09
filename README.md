@@ -38,7 +38,7 @@ A machine learning web application built using Streamlit that predicts whether o
 
 The Dataset used for Diabetes Prediction can be found [`here`](https://github.com/aman-chhetri/MediCare/blob/main/datasets/diabetes.csv). 
 
-The Dataset used for for Heart Diseases Prediction can be found here [`here`](https://github.com/aman-chhetri/MediCare/blob/main/datasets/heart.csv). 
+The Dataset used for Heart Diseases Prediction can be found here [`here`](https://github.com/aman-chhetri/MediCare/blob/main/datasets/heart.csv). 
 
 The Dataset used for Parkinsons Diseases can be found here [`here`](https://github.com/aman-chhetri/MediCare/blob/main/datasets/parkinsons.csv). 
 
